@@ -9,10 +9,10 @@ body {
 /* ===== HEADER BANNER ===== */
 .main-header {
     background: #000;
-    height: 220px;          /* 👈 control final height here */
-    overflow: hidden;       /* crop extra black */
+    height: 150px;   /* Try this */
+    overflow: hidden;
     display: flex;
-    align-items: center;    /* vertical center */
+    align-items: center;
     justify-content: center;
 }
 
