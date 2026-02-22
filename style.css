@@ -6,41 +6,34 @@ body {
     color: #333;
 }
 
-/* ===== HEADER BANNER ===== */
+/* ===== HEADER ===== */
 .main-header {
     background: #000;
-    height: 220px;   /* Try this */
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .header-banner {
-    width: 100%;
+    width: 65%;
+    max-height: 180px;
     height: auto;
 }
 
-/* ================= NAVIGATION ================= */
-nav {
+/* ===== NAVIGATION ===== */
+.navbar {
     text-align: center;
-    padding: 15px;
-    background: #fff;
+    background: #f2f2f2;
+    padding: 15px 0;
 }
 
-nav a {
+.navbar a {
     text-decoration: none;
     margin: 0 20px;
     color: #333;
     font-weight: 600;
-    transition: 0.3s;
 }
 
-nav a:hover {
-    color: #b76e79;
-}
-
-nav a.active {
+.navbar a:hover {
     color: #b76e79;
 }
 
