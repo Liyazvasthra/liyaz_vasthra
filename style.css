@@ -6,17 +6,18 @@ body {
     color: #333;
 }
 
-/* ================= HEADER BANNER ================= */
+/* ===== HEADER BANNER ===== */
 .main-header {
     background: #000;
     text-align: center;
     padding: 0;
+    overflow: hidden;   /* Important */
 }
 
 .header-banner {
     width: 100%;
-    height: auto;/* Increase this */
-    object-fit: contain;  /* Keeps full image visible */
+    max-height: 220px;   /* 👈 Adjust this value */
+    object-fit: contain;
     display: block;
     margin: 0 auto;
 }
