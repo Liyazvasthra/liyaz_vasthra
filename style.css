@@ -9,16 +9,16 @@ body {
 /* ===== HEADER BANNER ===== */
 .main-header {
     background: #000;
-    text-align: center;
-    padding: 0;
-    overflow: hidden;   /* Important */
+    height: 220px;          /* 👈 control final height here */
+    overflow: hidden;       /* crop extra black */
+    display: flex;
+    align-items: center;    /* vertical center */
+    justify-content: center;
 }
 
 .header-banner {
-    width: 65%;      /* Reduce this */
+    width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 /* ================= NAVIGATION ================= */
