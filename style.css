@@ -15,7 +15,7 @@ body {
 }
 
 .header-banner {
-    width: 75%;      /* Reduce this */
+    width: 65%;      /* Reduce this */
     height: auto;
     display: block;
     margin: 0 auto;
