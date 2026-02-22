@@ -16,7 +16,7 @@ body {
 
 /* Logo (Left) */
 .logo {
-    height: 70px;      /* control height instead of width */
+    height: 90px;      /* control height instead of width */
     width: auto;
 }
 
