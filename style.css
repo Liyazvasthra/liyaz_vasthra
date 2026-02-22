@@ -140,3 +140,15 @@ footer {
 nav a.active {
     color: #b76e79;
 }
+
+.main-header {
+    background: #000;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
