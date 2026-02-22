@@ -14,8 +14,8 @@ body {
 }
 
 .header-banner {
-    width: 300%;
-    height: 300px;        /* Increase this */
+    width: 100%;
+    height: auto;/* Increase this */
     object-fit: contain;  /* Keeps full image visible */
     display: block;
     margin: 0 auto;
