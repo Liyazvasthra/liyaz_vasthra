@@ -11,21 +11,22 @@ body {
     background: #000;
     display: flex;
     align-items: center;
-    padding: 10px 40px;
+    padding: 20px 40px;
+    min-height: 140px;   /* increase header height */
 }
 
-/* Logo (Left) */
+/* Logo */
 .logo {
-    height: 200px;      /* control height instead of width */
+    height: 120px;   /* good balanced size */
     width: auto;
 }
 
-/* Brand Name (Center) */
+/* Brand Name */
 .brand-name {
     flex: 1;
     text-align: center;
     color: #d4af37;
-    font-size: 30px;
+    font-size: 34px;
     letter-spacing: 4px;
     font-weight: 600;
     margin: 0;
