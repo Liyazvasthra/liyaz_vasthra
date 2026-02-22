@@ -11,23 +11,24 @@ body {
     background: #000;
     display: flex;
     align-items: center;
-    padding: 20px 40px;
-    min-height: 140px;   /* increase header height */
+    justify-content: space-between;
+    padding: 20px 60px;
 }
 
 /* Logo */
 .logo {
-    height: 120px;   /* good balanced size */
+    height: 130px;   /* Bigger but balanced */
     width: auto;
 }
 
 /* Brand Name */
 .brand-name {
-    flex: 1;
-    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     color: #d4af37;
-    font-size: 34px;
-    letter-spacing: 4px;
+    font-size: 36px;
+    letter-spacing: 5px;
     font-weight: 600;
     margin: 0;
 }
