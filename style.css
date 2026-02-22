@@ -9,7 +9,7 @@ body {
 /* ===== HEADER BANNER ===== */
 .main-header {
     background: #000;
-    height: 150px;   /* Try this */
+    height: 220px;   /* Try this */
     overflow: hidden;
     display: flex;
     align-items: center;
