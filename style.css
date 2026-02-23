@@ -1,38 +1,26 @@
-/* ================= GENERAL ================= */
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f8f5f2;
-    color: #333;
+    background: #f8f5f2;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 .main-header {
     background: #000;
     text-align: center;
+    padding: 10px 0;
 }
 
 .header-banner {
     width: 60%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    max-height: 160px;
 }
 
-/* ===== NAVIGATION ===== */
+/* NAVBAR */
 .navbar {
     background: #f2f2f2;
-    padding: 15px 0;
     text-align: center;
-    position: relative;
-}
-
-.navbar a {
-    text-decoration: none;
-    margin: 0 20px;
-    color: #333;
-    font-weight: 600;
-    cursor: pointer;
+    padding: 15px 0;
 }
 
 .navbar a {
@@ -42,45 +30,24 @@ body {
     font-weight: 600;
 }
 
-/* ================= HERO ================= */
+.navbar a.active {
+    color: #b76e79;
+}
+
+/* HERO */
 .hero {
     text-align: center;
     padding: 80px 20px;
     background: #f3e8e6;
 }
 
-.hero h2 {
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-
-/* ================= BUTTON ================= */
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background: #b76e79;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #944e5a;
-}
-
-/* ================= SECTIONS ================= */
+/* SECTION */
 .section {
     padding: 70px 20px;
     text-align: center;
 }
 
-/* ================= GALLERY ================= */
+/* GALLERY */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -90,52 +57,25 @@ body {
 
 .gallery img {
     width: 100%;
-    height: 320px;
-    object-fit: cover;
-    border-radius: 15px;
-    transition: 0.3s;
+    border-radius: 10px;
 }
 
-.gallery img:hover {
-    transform: scale(1.05);
-}
-
-/* ================= INSTAGRAM ================= */
-.instagram a {
-    color: #b76e79;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.instagram a:hover {
-    text-decoration: underline;
-}
-
-/* ================= FOOTER ================= */
+/* FOOTER */
 footer {
     background: #000;
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
 }
 
-/* ================= WHATSAPP BUTTON ================= */
+/* WHATSAPP */
 .whatsapp-float {
     position: fixed;
     bottom: 25px;
     right: 25px;
-    background-color: #25D366;
+    background: #25D366;
     color: white;
+    padding: 12px 18px;
     border-radius: 50px;
-    padding: 15px 22px;
-    font-size: 15px;
     text-decoration: none;
-    font-weight: bold;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
-    transition: 0.3s;
-}
-
-.whatsapp-float:hover {
-    background-color: #1ebe5d;
-    transform: scale(1.05);
 }
