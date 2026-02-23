@@ -37,3 +37,23 @@
 .gallery img:hover {
     transform: scale(1.05);
 }
+
+/* ===== INSTAGRAM FLOAT BUTTON ===== */
+.instagram-float {
+    position: fixed;
+    bottom: 90px; /* place above WhatsApp */
+    right: 25px;
+    background: #E1306C;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+
+.instagram-float:hover {
+    background: #c8235f;
+    transform: scale(1.05);
+}
